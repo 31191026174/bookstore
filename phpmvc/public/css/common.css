@@ -1,0 +1,215 @@
+/* phan header  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html, body{
+    width: 100%;
+    height: 120%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #222;
+    
+}
+
+/* topbar*/
+
+.fa-twitter::before{
+    content: "\f099";
+}
+
+:before{
+box-sizing: border-box;
+}
+.hidden-xs {
+    display: inline-block !important;
+}
+.hidden-sm{
+    display: inline-block !important;
+}
+.hidden{
+    display: none !important;
+}
+.Login{
+    width: 450px;
+    height: 516px;
+    position: fixed;
+    background-color: white;
+    
+    z-index: 200;
+    border-radius: 4px solid black;
+    color: #000;
+    background: #fff;
+    border: 2px solid #000;
+    -webkit-border-radius:5px;
+    
+
+}
+
+.Login input[type=text]{
+    width: 50%;
+    border: 0;
+    padding :0 50px;
+    font-family: Time 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 50px;
+    border-bottom: 1px solid rgb(0,0,0,.2);
+    margin-right: 25px;
+}
+.Login input[type=password]
+{
+    width: 50%;
+    border: 0;
+    padding :0 50px;
+    font-family: Time 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 50px;
+    border-bottom: 1px solid rgb(0,0,0,.2);
+    margin-right: 25px;
+}
+.Login input[type=submit]{
+    font-size: 20px;
+    text-transform: uppercase;
+    background: 0 0;
+    padding: 0 85px;
+    border: 2px solid silver;
+    -webkit-border-radius:25px;
+    font-family: 'Times New Roman', Times, serif;
+
+    font-weight: bold;
+    line-height: 50px;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}
+.Login input[type=submit]:hover{
+    background-color: #9387d9;
+    border-color: #9387d9;
+    color: #fff;
+ }
+.Login input{
+    margin-bottom: 20px;
+}
+.social-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+     margin-left: 35%;
+     margin-right: 35%;
+}
+.social-login img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+@media (max-width:992px)
+{
+    .topbar-left .hidden-sm{
+        display: none !important    ;
+    }
+}
+@media(max-width:565px)
+{
+    .topbar-left .hidden-xs{
+        display:none !important;
+    }
+}
+
+.social-link li {
+    /*Xoa dấu sao của li */
+    list-style-type:none !important;
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.topbar-inner{
+    background-color: rgb(236, 233, 218);
+    color:black;
+    font-size: 13px;
+    height: 40px;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    
+}
+.fab{
+    display: inline-block;
+    text-rendering: auto;
+    color:gray;
+}
+.login-header a{
+    color: black;
+    
+}
+.topbar-right{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;   
+}
+.login-header{
+    margin-left: 35px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.head-right{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+
+}
+/* End topbar*/
+
+
+/* phan footer */
+.aye{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-items: center;
+    
+    
+}
+#id3{
+    height: 50px;
+}
+#li1{
+    font-weight: bolder;
+    font-size: 120%!important;
+    margin-bottom: 20px;
+    
+}
+.contact li{
+    color: white;
+    font-size: 70%;;
+    
+}
+.contact{
+    list-style-type: none;
+}
+#tiki{
+    position: relative;
+    left: 20%;
+}
+.contact li a{
+    color: white;
+    
+    text-decoration: none;
+}
+

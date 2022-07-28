@@ -1,0 +1,235 @@
+.header-left{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    
+  } 
+  
+  
+  .main-menu{
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   position: relative;
+   bottom: 15px;
+   margin-top: 20px;
+  }
+  .grouplogo{
+    position: relative;
+    bottom: 16px;
+  }
+   
+  .iconneedborder{
+    border-radius: 50%;
+    border: 2px solid hsla(0,0%,59%,.4); 
+    width: 39px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+  }
+  
+  .menu-item-text{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .main-menu li{
+    list-style-type:none !important;
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+  }
+  @media(max-width:576px)
+  {
+    .main-menu{
+      position: relative;
+      top: 20px;
+    }
+  }
+  .fas{
+    font-size: 16px;
+  }
+  .bach{
+    margin-top: 45px;
+    margin-bottom: 15px;
+  }
+  #searchsubmit2{
+    background: rgb(233, 231, 231);
+    border: 0;
+    margin-left: -10px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    border-top:  1px solid #ddd;
+    border-bottom:  1px solid #ddd;;
+    border-right:  1px solid #ddd;
+  
+    -webkit-border-top-right-radius:25px; 
+    -webkit-border-bottom-right-radius:25px;
+    
+    
+  }
+  @media(max-width:768px){
+    .product-item{
+      display: block !important;
+    }
+    .titlefilter{font-size: 16px !important;}
+    .titlefilter2{font-size: 14px !important;}
+    .item-cate{font-size: 14px !important;}
+    .search-main{ margin-left: -30px;}
+  }
+  
+  .main-menu li a{
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+  
+  .main-menu{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  /* bo qua doan nay */
+  .searchbox input[type=text]{
+    border: 0;
+    line-height: 40px;
+    width: 90%;
+    font-size: 13px;
+    height: 40px;
+  
+    border: 1px solid #ddd;
+    
+    background: rgb(233, 231, 231);
+    padding-left: 40px;
+    -webkit-border-top-left-radius:25px; 
+    -webkit-border-bottom-left-radius:25px;
+  }
+  
+  .result-search-products-content{
+  
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    top: calc(100% + 10px);
+    left: 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+  .result-search-products{
+    display: none;
+      z-index: 10;
+      max-height: 300px;
+      overflow-y: auto;
+      padding: 30px;
+      overflow-x: hidden;
+      list-style: none;
+  }
+  .smallimg{
+      display: flex;
+      position: relative;
+      
+      justify-content: start;
+      
+      font-size: 23px;
+  }
+  .smallimg img{
+      margin:5px;
+    
+  }
+
+
+.listprice li{
+    
+    list-style-type: none !important;
+}
+.price{
+    
+    width: 100%;
+    border: 1px solid rgb(197, 195, 195);
+    background-color: #e8e8e8;  
+    padding-right: 20px;
+    margin-bottom: 30px !important;
+}
+.price-item{
+    display: flex;
+    justify-content: space-between;
+}
+.price_total{
+    
+    font-size: 24px;
+    height: 50px;
+    align-items: center;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+}
+.khuyenmai{
+ color:blue;
+}
+.card.card-body{
+    background-color:#e8e8e8 !important;  
+    border:0 !important;
+    position: relative;
+    bottom: 20px;
+}
+#titlep{
+    margin:10px 0px 0px 20px;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    font-size: 28px;
+}
+.card.card-body input[type=text]{
+  
+  width: 100%;
+ 
+}
+.soluonghang{
+  width: 50px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+}
+.btnsub{
+  margin-top: 2px;
+  width: 100%;
+  
+}
+.btnadd{
+  width: 32px;
+  height: 32px;
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,.09);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 240, 240);
+  
+  
+}
+.yourcontainer{
+  display: flex;
+  align-items: center;
+  
+
+}
+
+#giacuoi{
+  color: red !important;
+  font-weight: normal !important;
+  
+}
+.collapse{
+  position: relative;
+  bottom:20px;
+  text-align: center;
+  height: 120px;
+}
+
+.submitmua{
+  width: 100% !important;
+}

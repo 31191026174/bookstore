@@ -1,0 +1,266 @@
+body{
+	
+	background-size: contain;
+	color: rgb(22, 22, 22);
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+
+.btn{
+	color: black;
+}
+.info img{
+	display: flex;
+    justify-content: start;
+	width: 158px;
+	height: 40px;
+
+}
+
+/*menu*/
+.menu{
+	padding: 10px;
+	color: #000000;
+	font-weight: 500;
+	font-size: medium;
+}
+
+.logout{
+	text-align: center;
+}
+.logout button{
+	margin-top: 5px;
+	border-radius: 15px;
+	background-color: orangered;
+}
+/*end menu*/
+
+/*body-l*/
+.info-content{
+	height: 100%;
+	margin-top: 10px;
+	padding: 10px;
+}
+.col_left{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.col_left > ul > li{
+	background-color:papayawhip ;
+	border-radius: 5px;
+}
+
+
+/*đổi màu active và hover nè*/
+.col_left > ul > li >a{
+	color: black;
+}
+.col_left > ul > li :hover{
+	color:white
+}
+.nav-stacked .menu-choice.active > a,.nav-stacked .menu-choice.active:hover > a {
+	background-color: lightsalmon;
+	color:black;
+}
+
+
+
+/*căn label*/
+.home-title{
+border: solid 1px white;
+}
+.tab-content #home .home-title > h3, .tab-content #menu1 .home-title > h3, .tab-content #menu2 .home-title > h3{
+	padding: 5px 30px;
+	color: white;
+}
+
+.ava_account{
+	margin: 20px;
+}
+
+.info_account{
+	padding: 20px;
+
+}
+
+/*body thông tin*/
+.tab-content img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*table bang thong tin*/
+table.bang_thong_tin{
+	width: 100%;
+	text-align: center;
+}
+th, td{
+	border: 1px solid rgb(255, 255, 255);
+	padding: 15px;
+	text-align: center;
+}
+.notice-board{
+	text-align: center;
+}
+/*end in4*/
+
+/*button*/
+.chinhsua{
+	background-color: rgb(70, 70, 70);
+	color: rgb(255, 255, 255);
+	width: 200px;
+	word-wrap:unset;
+}
+.huy{
+	background-color:darkred;
+	color: rgb(255, 255, 255);
+}
+
+/*section 2*/
+.menu-sc2{
+margin-top: 10px;
+}
+#menu1 > ul > li >a{
+	color: blanchedalmond;
+}
+#menu1 > ul > li >a:hover{
+	color:white;
+}
+#menu1 > ul > li.active >a, #menu1 > ul > li.active:hover >a{
+	border: solid 1.5px white;
+	background-color: transparent;
+}
+.edit_info{
+	padding: 5%;
+}
+.edit_info input{
+	border-radius: 5px;
+}
+.tab-pane button{
+	margin: 3% 15%;
+}
+.search{
+	width: 100%;
+	margin-top: 5%;
+}
+.soluonghang{
+	
+	align-items: center;
+	justify-content: center;
+  }
+.ineedf{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.searchit{
+	background-color: orange;
+	color: white;
+	border: 1.5px solid papayawhip;
+}
+li{
+	list-style-type: none;
+}
+.products{
+	margin-top: 5%;
+}
+a {	
+	color: black;
+}
+a:hover {
+	color:red;
+}
+
+/*nút cập nhật section 2*/
+.update-btn, .adding-btn{
+	background-color: rgb(70, 70, 70);
+	color: white;
+}
+ /*bảng results tìm sách*/
+table.product-searching-results{
+	border: 1px solid rgb(100, 100, 100);
+	width: 95%;
+	margin-left: 20px;
+}
+.title{
+	text-align: center;
+	font-weight: bold;
+	font-size: large;
+}
+.table-hover tbody tr:hover{
+	color:white !important;
+}
+
+.search, .search > input{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 100%;
+}
+
+.product-searching-main-info{
+	font-weight: bold;
+	font-size: small;
+}
+
+.close{
+	cursor: pointer;
+}
+.close :hover {
+	color: red;
+}
+/*end*/
+.leftmodal{
+	text-align: center;
+}
+.modal-dialog{
+	min-width: 75% !important;
+	color:black;
+  }
+  .nav-item{
+	margin-top:10px;
+}
+.input-id-row{
+    margin: 2%;
+    }
+    .input-id-form{
+    padding: 5px;
+    width: 100%;
+    font-size: medium;
+    font-weight: 400;
+    }
+    .id-searching-btn{
+        background-color: orange;
+        border: 1.5px solid rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+    }
+    /*admin-role*/
+    table.role{
+        border: 1px solid rgb(100, 100, 100);
+        width: 95%;
+        text-align: center !important;
+        margin-left: 20px;
+    }
+    #role-main-title{
+        text-align: center;
+        font-size: large;
+        letter-spacing: 1px;
+    }
+    .role-title{
+        font-weight: bold;
+        font-size: small;
+    }
+    
+.sayno{
+	color:white;
+	margin-top:20px;
+	position: relative;
+	left:18px;
+	
+}
+
